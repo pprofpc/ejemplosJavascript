@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<html>
+<head>
+   <title>Operaciones</title>
+	<script src="operaciones.js">
+	</script>
+      
+&nbsp;
+   </script>
+</head>
+
+    <h1>Performing Simple Math</h1>
+    <p>
+        Value1:
+        <input type="text" id="Value1" value="4">
+    </p>
+    <p>
+        Value1:
+        <input type="text" id="Value2" value="5">
+    </p>
+    <p>
+        Result:
+        <input type="text" id="Result" value=""
+               readonly="true">
+    </p>
+    <input type="button"
+           value="+"
+           onclick="operation(1)" />
+    <input type="button"
+           value="-"
+           onclick="operation(2)" />
+    <input type="button"
+           value="*"
+           onclick="operation(3)" />
+    <input type="button"
+           value="/"
+           onclick="operation(4)" />
+
+	<select id="mySelect">
+	  <option value="1">Suma</option>
+	  <option value="2">Resta</option>
+	  <option value="3">Multiplicación</option>
+	  <option value="4">División</option>
+	</select>
+	
+	<input type="button"
+        value="Resultado"
+        onclick="operation(5)" />
+</html>
