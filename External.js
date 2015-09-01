@@ -7,5 +7,6 @@ function ExternalSayHello()
 function WriteText()
 {
  document.getElementById("myText").innerHTML = Date();
+
 ExternalSayHello()
 }
