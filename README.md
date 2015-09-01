@@ -1,2 +1,3 @@
-# ejemplosJavascript
-Serie de ejemplos en lenguaje javascript, con algo de PyQt.
+#Ejemplos Javascript
+
+Serie de ejemplos en lenguaje javascript, *con algo de PyQt*.
